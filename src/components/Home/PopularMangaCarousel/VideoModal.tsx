@@ -1,4 +1,4 @@
-import { Modal } from 'antd';
+import { Modal } from "../../common";
 
 interface VideoModalProps {
   isOpen: boolean;
@@ -31,4 +31,4 @@ const VideoModal = ({ isOpen, onClose, videoUrl, title }: VideoModalProps) => {
   );
 };
 
-export default VideoModal; 
+export default VideoModal;

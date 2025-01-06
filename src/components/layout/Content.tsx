@@ -1,11 +1,9 @@
-import { Layout } from 'antd';
-import { Routes, Route } from 'react-router-dom';
-import HomePage from '../../pages/HomePage';
-import About from '../../pages/About';
-import Contact from '../../pages/Contact';
-import MangaDetailsPage from '../../pages/MangaDetailsPage';
-
-const { Content: AntContent } = Layout;
+import { Routes, Route } from "react-router-dom";
+import HomePage from "../../pages/HomePage";
+import About from "../../pages/About";
+import Contact from "../../pages/Contact";
+import MangaDetailsPage from "../../pages/MangaDetailsPage";
+import { Content as AntContent } from "../common";
 
 const Content = () => {
   return (
@@ -22,4 +20,4 @@ const Content = () => {
   );
 };
 
-export default Content; 
+export default Content;

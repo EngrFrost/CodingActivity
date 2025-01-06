@@ -1,10 +1,8 @@
 import { useState } from "react";
-import { Input, Button, List, Typography } from "antd";
 import { SendOutlined, ClockCircleOutlined } from "@ant-design/icons";
 import { Comment } from "../../types/manga";
 import { formatDate } from "../../utils/utils";
-
-const { Text } = Typography;
+import { Button, List, ListItem, Text, TextArea } from "../common";
 
 const CommentSection = () => {
   const [comments, setComments] = useState<Comment[]>([]);
@@ -27,7 +25,7 @@ const CommentSection = () => {
     <div className="mt-8">
       <div className="mb-6">
         <div className="flex gap-2">
-          <Input.TextArea
+          <TextArea
             value={newComment}
             onChange={(e) => setNewComment(e.target.value)}
             placeholder="Write a comment..."
@@ -49,20 +47,18 @@ const CommentSection = () => {
         className="bg-tertiary rounded-lg text-[#e5e7eb]"
         dataSource={comments}
         locale={{ emptyText: "No comments yet" }}
-        renderItem={(comment) => (
-          <List.Item className="px-6 py-4 border-b border-primary">
+        renderItem={(comment: Comment) => (
+          <ListItem className="px-6 py-4 border-b border-primary">
             <div className="w-full">
               <Text className="text-white whitespace-pre-wrap">
-                {comment.text}
+                {comment?.text}
               </Text>
               <div className="flex items-center gap-2 mt-2">
                 <ClockCircleOutlined className="text-muted text-sm" />
-                <Text type="secondary" className="text-sm">
-                  {formatDate(comment.createdAt)}
-                </Text>
+                <Text className="text-sm">{formatDate(comment.createdAt)}</Text>
               </div>
             </div>
-          </List.Item>
+          </ListItem>
         )}
       />
     </div>

@@ -1,5 +1,5 @@
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Layout } from 'antd';
+import { Layout } from './components/common';
 import Header from './components/layout/Header';
 import Content from './components/layout/Content';
 import Footer from './components/layout/Footer';

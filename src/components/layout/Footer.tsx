@@ -1,6 +1,4 @@
-import { Layout } from "antd";
-
-const { Footer: AntFooter } = Layout;
+import { Footer as AntFooter } from "../common";
 
 const Footer = () => {
   return (

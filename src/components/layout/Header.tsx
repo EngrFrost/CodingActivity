@@ -1,7 +1,5 @@
-import { Layout, Menu } from 'antd';
-import { Link } from 'react-router-dom';
-
-const { Header: AntHeader } = Layout;
+import { Link } from "react-router-dom";
+import { Header as AntHeader, Menu } from "../common";
 
 const Header = () => {
   return (
@@ -11,13 +9,13 @@ const Header = () => {
         mode="horizontal"
         className="flex items-center"
         items={[
-          { key: '1', label: <Link to="/">Home</Link> },
-          { key: '2', label: <Link to="/about">About</Link> },
-          { key: '3', label: <Link to="/contact">Contact</Link> },
+          { key: "1", label: <Link to="/">Home</Link> },
+          { key: "2", label: <Link to="/about">About</Link> },
+          { key: "3", label: <Link to="/contact">Contact</Link> },
         ]}
       />
     </AntHeader>
   );
 };
 
-export default Header; 
+export default Header;

@@ -1,10 +1,9 @@
-import { Carousel, Card, Typography, Rate } from "antd";
 import { mangaList } from "../../../data/mangaData";
 import { useState } from "react";
 import VideoModal from "./VideoModal";
 import { PlayCircleOutlined } from "@ant-design/icons";
-
-const { Title, Text } = Typography;
+import { Carousel } from "antd";
+import { Card, Rate, Text, Title } from "../../common";
 
 interface VideoState {
   isOpen: boolean;
@@ -19,7 +18,7 @@ const PopularMangaCarousel = () => {
     title: "",
   });
 
-  const handleCardClick = (manga: typeof mangaList[0]) => {
+  const handleCardClick = (manga: (typeof mangaList)[0]) => {
     setVideoState({
       isOpen: true,
       url: manga.trailerUrl,

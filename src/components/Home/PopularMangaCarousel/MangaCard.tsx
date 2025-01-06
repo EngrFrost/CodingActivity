@@ -1,7 +1,5 @@
-import { Card, Typography, Rate, Tag } from 'antd';
-import { MangaCard as MangaCardType } from '../../../types/manga';
-
-const { Title, Paragraph, Text } = Typography;
+import { MangaCard as MangaCardType } from "../../../types/manga";
+import { Card, Paragraph, Rate, Tag, Text, Title } from "../../common";
 
 interface MangaCardProps {
   manga: MangaCardType;
@@ -18,13 +16,15 @@ const MangaCard = ({ manga }: MangaCardProps) => {
           className="h-64 object-cover"
           onError={(e) => {
             const target = e.target as HTMLImageElement;
-            target.src = 'https://placehold.co/300x400?text=Manga';
+            target.src = "https://placehold.co/300x400?text=Manga";
           }}
         />
       }
       className="h-full"
     >
-      <Title level={4} className="mb-2">{manga.title}</Title>
+      <Title level={4} className="mb-2">
+        {manga.title}
+      </Title>
       <div className="mb-2">
         {manga.genre.map((g) => (
           <Tag key={g} className="mb-1 mr-1">
@@ -37,20 +37,18 @@ const MangaCard = ({ manga }: MangaCardProps) => {
       </Paragraph>
       <div className="flex items-center justify-between mt-4">
         <div>
-          <Rate 
-            disabled 
-            defaultValue={manga.rating} 
-            allowHalf 
+          <Rate
+            disabled
+            defaultValue={manga.rating}
+            allowHalf
             className="text-sm"
           />
           <Text className="block">{manga.rating}/5</Text>
         </div>
-        <Text className="text-right">
-          Chapters: {manga.chapters}
-        </Text>
+        <Text className="text-right">Chapters: {manga.chapters}</Text>
       </div>
     </Card>
   );
 };
 
-export default MangaCard; 
+export default MangaCard;

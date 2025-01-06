@@ -1,6 +1,6 @@
-import { Row, Col } from 'antd';
-import { mangaList } from '../../../data/mangaData';
-import MangaCard from './MangaCard';
+import { mangaList } from "../../../data/mangaData";
+import { Col, Row } from "../../common";
+import MangaCard from "./MangaCard";
 
 const MangaList = () => {
   return (
@@ -14,4 +14,4 @@ const MangaList = () => {
   );
 };
 
-export default MangaList; 
+export default MangaList;

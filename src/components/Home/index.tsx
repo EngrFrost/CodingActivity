@@ -1,8 +1,6 @@
-import { Typography, Divider } from "antd";
-import PopularMangaCarousel from "./PopularMangaCarousel";
+import { Divider, Title } from "../common";
 import LatestUpdates from "./LatestUpdates";
-
-const { Title } = Typography;
+import PopularMangaCarousel from "./PopularMangaCarousel";
 
 const Home = () => {
   return (
