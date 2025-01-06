@@ -11,3 +11,30 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+.ant-rate {
+  font-size: 14px;
+}
+
+.ant-card-body {
+  padding: 16px;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: #fff;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.ant-carousel .slick-prev {
+  left: 0;
+}
+
+.ant-carousel .slick-next {
+  right: 0;
+}
+
+.ant-carousel .slick-dots-bottom {
+  bottom: -24px;
+}

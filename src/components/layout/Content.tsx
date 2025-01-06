@@ -1,6 +1,6 @@
 import { Layout } from 'antd';
 import { Routes, Route } from 'react-router-dom';
-import Home from '../../pages/Home';
+import HomePage from '../../pages/HomePage';
 import About from '../../pages/About';
 import Contact from '../../pages/Contact';
 
@@ -11,7 +11,7 @@ const Content = () => {
     <AntContent className="pt-16 px-4">
       <div className="max-w-7xl mx-auto">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
