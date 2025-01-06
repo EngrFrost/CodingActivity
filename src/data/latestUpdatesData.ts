@@ -4,7 +4,7 @@ export const latestUpdates: ChapterUpdate[] = [
   {
     id: 1,
     mangaTitle: "Martial God Regressed to Level 2",
-    mangaImage: "https://example.com/martial-god.jpg",
+    mangaImage: "https://static.zerochan.net/The.Martial.God.Who.Regressed.Back.to.Level.2.1024.4299780.webp",
     chapters: [
       {
         number: 84,
@@ -26,7 +26,7 @@ export const latestUpdates: ChapterUpdate[] = [
   {
     id: 2,
     mangaTitle: "The Extra's Academy",
-    mangaImage: "https://example.com/extras-academy.jpg",
+    mangaImage: "https://static.zerochan.net/Quiz.Magic.Academy.full.2554616.jpg",
     chapters: [
       {
         number: 59,
@@ -48,7 +48,7 @@ export const latestUpdates: ChapterUpdate[] = [
   {
     id: 3,
     mangaTitle: "Revenge of the Iron-Blooded Sword Hound",
-    mangaImage: "https://example.com/sword-hound.jpg",
+    mangaImage: "https://static.zerochan.net/Lucy.%28Trapped.in.the.Academy%E2%80%99s.Eroge%29.1024.4137624.webp",
     chapters: [
       {
         number: 94,

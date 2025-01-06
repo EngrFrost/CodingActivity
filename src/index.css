@@ -4,37 +4,154 @@
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #121212;
+  color: #FFFFFF;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #121212;
 }
 
-.ant-rate {
-  font-size: 14px;
+/* Ant Design overrides */
+.ant-layout {
+  background-color: #121212 !important;
 }
 
-.ant-card-body {
-  padding: 16px;
+.ant-layout-header {
+  background-color: #222222 !important;
 }
 
+.ant-menu.ant-menu-dark {
+  background-color: #222222 !important;
+}
+
+.ant-card {
+  background-color: #222222 !important;
+  border-color: #333333 !important;
+}
+
+.ant-card-meta-title {
+  color: #FFFFFF !important;
+}
+
+.ant-typography {
+  color: #FFFFFF !important;
+}
+
+.ant-list {
+  background-color: #222222 !important;
+}
+
+.ant-list-item {
+  border-bottom: 1px solid #333333 !important;
+}
+
+.ant-divider {
+  border-color: #333333 !important;
+}
+
+/* Carousel customization */
 .ant-carousel .slick-prev,
 .ant-carousel .slick-next {
-  color: #fff;
-  font-size: 20px;
+  color: #913FE2 !important;
+  font-size: 24px;
   z-index: 2;
 }
 
-.ant-carousel .slick-prev {
-  left: 0;
+.ant-carousel {
+  background-color: #222222 !important;
+  padding: 20px 0;
+  border-radius: 8px;
 }
 
-.ant-carousel .slick-next {
-  right: 0;
+/* Rating stars color */
+.ant-rate-star-full .anticon {
+  color: #913FE2 !important;
 }
 
-.ant-carousel .slick-dots-bottom {
-  bottom: -24px;
+/* Text hierarchy */
+h1.ant-typography {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #FFFFFF !important;
+}
+
+h2.ant-typography {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #FFFFFF !important;
+}
+
+h3.ant-typography {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #FFFFFF !important;
+}
+
+h4.ant-typography {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #FFFFFF !important;
+}
+
+h5.ant-typography {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #FFFFFF !important;
+}
+
+.ant-typography {
+  color: #FFFFFF !important;
+}
+
+.ant-typography.ant-typography-secondary {
+  color: #888888 !important;
+}
+
+/* Tag customization */
+.ant-tag {
+  background-color: #913FE2 !important;
+  border-color: #913FE2 !important;
+  color: #FFFFFF !important;
+}
+
+/* Add these to your existing styles */
+.video-modal .ant-modal-content {
+  background-color: #222222 !important;
+}
+
+.video-modal .ant-modal-header {
+  background-color: #222222 !important;
+  border-bottom: 1px solid #333333 !important;
+}
+
+.video-modal .ant-modal-title {
+  color: #FFFFFF !important;
+}
+
+.video-modal .ant-modal-close {
+  color: #FFFFFF !important;
+}
+
+.ant-input-textarea {
+  background-color: #222222 !important;
+}
+
+.ant-input-textarea textarea {
+  color: #FFFFFF !important;
+}
+
+.ant-input-textarea textarea::placeholder {
+  color: #888888 !important;
+}
+
+.ant-btn-primary {
+  background-color: #913FE2 !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: #7B33BD !important;
 }

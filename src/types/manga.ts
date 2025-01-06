@@ -6,6 +6,7 @@ export interface MangaCard {
   rating: number;
   chapters: number;
   imageUrl: string;
+  trailerUrl: string;
 }
 
 export interface ChapterUpdate {
@@ -17,4 +18,10 @@ export interface ChapterUpdate {
     title: string;
     releaseDate: string;
   }[];
+}
+
+export interface Comment {
+  id: number;
+  text: string;
+  createdAt: string;
 } 

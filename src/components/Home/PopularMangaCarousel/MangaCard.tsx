@@ -1,5 +1,5 @@
 import { Card, Typography, Rate, Tag } from 'antd';
-import { MangaCard as MangaCardType } from '../../types/manga';
+import { MangaCard as MangaCardType } from '../../../types/manga';
 
 const { Title, Paragraph, Text } = Typography;
 

@@ -1,5 +1,5 @@
 import { Row, Col } from 'antd';
-import { mangaList } from '../../data/mangaData';
+import { mangaList } from '../../../data/mangaData';
 import MangaCard from './MangaCard';
 
 const MangaList = () => {

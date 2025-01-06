@@ -8,7 +8,8 @@ export const mangaList: MangaCard[] = [
     genre: ["Action", "Adventure", "Comedy"],
     rating: 4.8,
     chapters: 1089,
-    imageUrl: "https://example.com/one-piece.jpg"
+    imageUrl: "https://static.zerochan.net/Wano.Kuni.1024.3520522.webp",
+    trailerUrl: "https://www.youtube.com/embed/S8_YwFLCh4U"
   },
   {
     id: 2,
@@ -17,7 +18,8 @@ export const mangaList: MangaCard[] = [
     genre: ["Action", "Supernatural", "Drama"],
     rating: 4.7,
     chapters: 205,
-    imageUrl: "https://example.com/demon-slayer.jpg"
+    imageUrl: "https://static.zerochan.net/Kimetsu.no.Yaiba.1024.2520543.webp",
+    trailerUrl: "https://www.youtube.com/embed/VQGCKyvzIM4"
   },
   {
     id: 3,
@@ -26,7 +28,8 @@ export const mangaList: MangaCard[] = [
     genre: ["Superhero", "Action", "School"],
     rating: 4.6,
     chapters: 402,
-    imageUrl: "https://example.com/mha.jpg"
+    imageUrl: "https://static.zerochan.net/Boku.no.Hero.Academia.1024.2139574.webp",
+    trailerUrl: "https://www.youtube.com/embed/S8_YwFLCh4U"
   },
   {
     id: 4,
@@ -35,7 +38,8 @@ export const mangaList: MangaCard[] = [
     genre: ["Dark Fantasy", "Action", "Mystery"],
     rating: 4.9,
     chapters: 139,
-    imageUrl: "https://example.com/aot.jpg"
+    imageUrl: "https://static.zerochan.net/Attack.on.Titan.1024.1417657.webp",
+    trailerUrl: "https://www.youtube.com/embed/S8_YwFLCh4U"
   },
   {
     id: 5,
@@ -44,7 +48,8 @@ export const mangaList: MangaCard[] = [
     genre: ["Action", "Supernatural", "School"],
     rating: 4.8,
     chapters: 236,
-    imageUrl: "https://example.com/jjk.jpg"
+    imageUrl: "https://static.zerochan.net/Jujutsu.Kaisen.1024.3071604.webp",
+    trailerUrl: "https://www.youtube.com/embed/S8_YwFLCh4U"
   },
   {
     id: 6,
@@ -53,7 +58,8 @@ export const mangaList: MangaCard[] = [
     genre: ["Action", "Horror", "Supernatural"],
     rating: 4.7,
     chapters: 146,
-    imageUrl: "https://example.com/chainsaw.jpg"
+    imageUrl: "https://static.zerochan.net/Chainsaw.Man.1024.3373902.webp",
+    trailerUrl: "https://www.youtube.com/embed/S8_YwFLCh4U"
   },
   {
     id: 7,
@@ -62,6 +68,7 @@ export const mangaList: MangaCard[] = [
     genre: ["Fantasy", "Action", "Magic"],
     rating: 4.5,
     chapters: 367,
-    imageUrl: "https://example.com/black-clover.jpg"
+    imageUrl: "https://static.zerochan.net/Black.Clover.1024.2219332.webp",
+    trailerUrl: "https://www.youtube.com/embed/S8_YwFLCh4U"
   }
 ]; 
