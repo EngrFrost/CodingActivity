@@ -18,3 +18,4 @@ export { Button } from "./General/Button";
 export { Tag } from "./Typography/tag";
 export { Modal } from "./Feedback/Modal";
 export { Menu } from "./Navigation/Menu";
+export { Toast, useToast } from "./Feedback/Toast";

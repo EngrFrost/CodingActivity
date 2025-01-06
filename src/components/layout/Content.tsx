@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
 import HomePage from "../../pages/HomePage";
-import About from "../../pages/About";
-import Contact from "../../pages/Contact";
+import About from "../../pages/AboutPage";
+import Contact from "../../pages/ContactPage";
 import MangaDetailsPage from "../../pages/MangaDetailsPage";
-import { Content as AntContent } from "../common";
+import { Content as AntContent } from "../common/Layout/Content";
 
 const Content = () => {
   return (

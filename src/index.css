@@ -155,3 +155,19 @@ h5.ant-typography {
 .ant-btn-primary:hover {
   background-color: #7B33BD !important;
 }
+
+.ant-form-item-label > label {
+  color: #FFFFFF !important;
+}
+
+.ant-form-item-explain-error {
+  color: #ff4d4f !important;
+}
+
+.ant-message {
+  .ant-message-notice-content {
+    background-color: #222222 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #333333;
+  }
+}
